@@ -1,0 +1,52 @@
+.section{
+	width:100%;
+	height:100%;
+	background:#f2f2f2;
+	overflow:hidden;
+}
+.sectitle{
+	font-size:0.4rem;
+	color:#aaaaaa;
+	font-family: "franklin gothic demi cond","楷体";
+	margin-top:30%;
+	letter-spacing: 0.1rem;;
+}
+.editorBox{
+	width:100%;
+	height:100%;
+}
+.editorlist{
+	width:33%;
+	height:2.5rem;
+	padding-top:1.7rem;
+	font-size:0.3rem;
+	color:#333;
+	float:left;
+	line-height:0.8rem;
+	box-sizing:border-box;
+}
+.editorlist:nth-child(2){
+	background:url(../img/video.png) no-repeat center 0.48rem;
+	background-size:60%;
+}
+.editorlist:nth-child(3){
+	background:url(../img/pic.png) no-repeat center 0.48rem;
+	background-size:60%;
+}
+.editorlist:nth-child(4){
+	background:url(../img/duanzi.png) no-repeat center 0.48rem;
+	background-size:60%;
+}
+.editorlist:nth-child(5){
+	background:url(../img/yuyin.png) no-repeat center 0.48rem;
+	background-size:60%;
+}
+.editorlist:nth-child(6){
+	background:url(../img/lianjie.png) no-repeat center 0.48rem;
+	background-size:60%;
+}
+.editorlist:nth-child(7){
+	background:url(../img/music.png) no-repeat center 0.48rem;
+	background-size:60%;
+}
+

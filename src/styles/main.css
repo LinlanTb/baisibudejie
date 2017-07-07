@@ -1,0 +1,200 @@
+.box{
+	width:100%;
+	height:100%;
+	display:-webkit-flex;
+	flex-direction:column;
+	text-align:center;
+}
+ul,li{
+	list-style: none;
+}
+.container{
+	width:100%;
+	height:100%;
+	display:-webkit-flex;
+	flex-direction:column;
+}
+.contain{
+	width:100%;
+	-webkit-flex:1;
+	overflow:hidden;
+}
+.header{
+	width:100%;
+	height:1.2rem;
+	background:#ff2d55;
+}
+.toptitle{
+	width:100%;
+	height:0.6rem;
+	font-size:0.3rem;
+	line-height:0.6rem;
+	color:#fff;
+	
+}
+.listBox{
+	width:100%;
+	height:0.6rem;
+	overflow:hidden;
+	box-sizing: border-box;
+	padding:0 0.15rem;
+}
+.headlist{
+	list-style: none;
+	height:0.6rem;
+	width:150%;
+}
+.headlist li{
+	float:left;
+	height:0.55rem;
+	line-height:0.55rem;
+	padding:0rem 0.22rem;
+	font-size:0.26rem;
+	color:#fff;
+}
+.headlist li a{
+	color:#fff;
+}
+.liActive{
+	border-bottom:0.03rem solid #fff;
+}	
+.section{
+	width:100%;
+	-webkit-flex:1;
+	overflow:hidden;
+}
+/*首页的样式*/
+.secHome{
+	width:100%;
+	height:100%;
+	overflow: hidden;
+	box-sizing: border-box;
+	padding:0 0.2rem;
+}
+.haveView{
+	margin:0.2rem 0;
+}
+.person{
+	height:0.8rem;
+	overflow:hidden;
+}
+.person img{
+	width:0.6rem;
+	height:0.6rem;
+	border-radius:100%;
+	float:left;
+	margin:0.1rem;
+}
+.person .perName{
+	float:left;
+	margin:0.1rem;
+	line-height:0.3rem;
+	font-size:0.2rem;
+	width:5rem;
+	
+}
+.person .perName p{
+	width:100%;
+	overflow:hidden; 
+	text-align: left;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+.person .perName p:nth-child(2){
+	color:#b1b1b1;
+	font-size:0.14rem;
+}
+.person .perName p:nth-child(1){
+	color:#24ceed;
+}
+.haveView h3{
+	width:100%;
+	min-height:0.4rem;
+	line-height:0.4rem;
+	font-size:0.26rem;
+	text-align: left;
+}
+.topic{
+	height:0.6rem;
+	display:-webkit-flex;
+}
+.topic div{
+	-webkit-flex:1;
+	line-height:0.6rem;
+	font-size:0.24rem;
+	color:#999;
+	padding-left:0.4rem;
+}
+.topic .approval{
+	background:url(../img/approval.png) no-repeat 0.6rem center;
+	background-size:auto 50%;
+}
+.topic .share{
+	background:url(../img/fenxiang.png) no-repeat 0.6rem center;
+	background-size:auto 50%;
+}
+.topic .discuss{
+	background:url(../img/pinglun.png) no-repeat 0.6rem center;
+	background-size:auto 50%;
+}
+.profile_image{
+	width:90%;
+	height:5rem;
+}
+/*底部的样式*/
+.footer{
+	width:100%;
+	height:0.8rem;
+	background:#f6f6f6;
+	box-sizing: border-box;
+	border-top:1px solid #ddd;
+	display:-webkit-flex;
+}
+
+.tablist{
+	box-sizing:border-box;
+	padding-top:0.46rem;
+	-webkit-flex:1;
+	font-size:0.2rem;
+	color:#888;
+}
+.tablist:nth-child(1){
+	background:url(../img/jinghua.png) no-repeat center 0.06rem;
+	background-size:auto 50%;
+}
+.tablist:nth-child(2){
+	background:url(../img/xintie.png) no-repeat center 0.06rem;
+	background-size:auto 50%;
+}
+.tablist:nth-child(3){
+	padding:0;
+	background:url(../img/huabi.png) no-repeat center center;
+	background-size:auto 80%;
+}
+.tablist:nth-child(4){
+	background:url(../img/baijiajie.png) no-repeat center 0.06rem;
+	background-size:auto 50%;
+}
+.tablist:nth-child(5){
+	background:url(../img/my.png) no-repeat center 0.06rem;
+	background-size:auto 50%;
+}
+.active{
+	color:#FF2D55;
+}
+.footer a:nth-of-type(1).active{
+	background:url(../img/jinghua-active.png) no-repeat center 0.06rem;
+	background-size:auto 50%;
+}
+.footer a:nth-of-type(2).active{
+	background:url(../img/xintie-active.png) no-repeat center 0.06rem;
+	background-size:auto 50%;
+}
+.footer a:nth-of-type(4).active{
+	background:url(../img/baijiajie-active.png) no-repeat center 0.06rem;
+	background-size:auto 50%;
+}
+.footer a:nth-of-type(5).active{
+	background:url(../img/my-active.png) no-repeat center 0.06rem;
+	background-size:auto 50%;
+}
